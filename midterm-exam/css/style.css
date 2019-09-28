@@ -1,0 +1,220 @@
+@charset "utf-8";
+
+/*---------------------------*/
+/* 引用思源中文                */
+/*---------------------------*/
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexming.css);
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexhei.css);
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexkai.css);
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+
+
+
+/*---------------------------*/
+/* 定義網頁                   */
+/*---------------------------*/
+html,
+body {
+    /*設定思源中文*/
+    margin: 0;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 18px;
+    background-color: white;
+    background-size: cover;
+}
+
+
+
+/*---------------------------*/
+/* 定義標題                   */
+/*---------------------------*/
+header {
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    min-width: 800px;
+    height: 80px;
+    background-color: rgba(254, 255, 237, 0.7);
+    box-shadow: 0px 2px 3px 0px black;
+}
+
+
+
+/*---------------------------*/
+/* 定義導覽列                 */
+/*---------------------------*/
+nav {
+    margin: 40px auto 0px auto;
+    width: 815px;
+    height: 40px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav ul li {
+    float: left;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/*---------------------------*/
+/* 定義logo                  */
+/*---------------------------*/
+img.logo {
+    width: 35px;
+}
+
+
+
+/*---------------------------*/
+/* 定義容器                   */
+/*---------------------------*/
+div.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    position: relative;
+    z-index: 5;
+    width: 1000px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+
+
+/*---------------------------*/
+/* 定義內容                   */
+/*---------------------------*/
+article {
+    padding: 20px 50px;
+    text-align: justify;
+    color: black;
+}
+
+
+
+/*---------------------------*/
+/* 定義half                   */
+/*---------------------------*/
+
+section.half {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+    position: relative;
+    width: 48%;
+    line-height: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+section.half:nth-child(1) {
+    margin-right: 20px;
+}
+
+section.half img {
+    width: 100%;
+}
+
+div.clear {
+    clear: both;
+}
+
+
+
+/*---------------------------*/
+/* 定義two                   */
+/*---------------------------*/
+
+div.two {
+    float: left;
+    position: relative;
+    width: 49%;
+    text-align: justify;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+div.two:nth-child(1) {
+    margin-right: 20px;
+}
+
+p.title2 {
+    font-size: 14px;
+    font-weight: 300;
+    color: black;
+}
+
+p.line1 {
+    font-size: 10px;
+    font-weight: 200;
+    color: black;
+}
+
+p.line2 {
+    font-size: 10px;
+    font-weight: 300;
+    color: black;
+}
+
+p.line3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
+
+p.line3 span {
+    font-size: 10px;
+    font-weight: 200;
+    text-decoration: line-through;
+    color: #7A7878;
+}
+
+p.line3-2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+p.line4 {
+    font-size: 10px;
+    font-weight: 400;
+    color: red;
+}
+
+div.clear {
+    clear: both;
+}
+
+
+/*---------------------------*/
+/* 定義頁尾                   */
+/*---------------------------*/
+footer {
+    height: 60px;
+    line-height: 60px;
+    background-color: black;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}
