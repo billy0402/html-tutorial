@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* Code Style Sheet 樣式設計 */
+/* CSS Document */
+
+/*-----------------------------------------------------*/
+html,
+body {
+    background: #7D6060;
+    /*Html 上邊界預留8px*/
+    margin: 0;
+    font-family: 'Roboto Mono', monospace, '標楷體';
+}
+
+/*-----------------------------------------------------*/
+div.container {
+    background: #A18686;
+    width: 800px;
+    /*
+	左邊界
+	margin-left: auto;
+	右邊界
+	margin-right: auto;
+	上下0px 左右自動
+	margin: 0 auto;
+	*/
+
+    margin: 0px auto 30px auto;
+
+    /*
+	四邊留白
+	padding: 20px;
+	
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 25px;
+	
+	上下 左右
+	padding: 100px 20px;
+	
+	上 右 下 左
+	padding: 30px 40px 20px 40px;
+	*/
+
+    /*左右 上下 模糊 延展 顏色*/
+    box-shadow: 3px 3px 10px 1px #000;
+    /*文字對齊*/
+    text-align: justify;
+}
+
+/*-----------------------------------------------------*/
+div.header {
+    background: #4A3333;
+    color: #CCC;
+    height: 80px;
+    line-height: 80px;
+    letter-spacing: 2px;
+    /*padding-left: 30px;*/
+    text-align: center;
+    margin: 30px auto 20px auto;
+}
+
+div.header h1 {
+    margin: 0;
+}
+
+/*-----------------------------------------------------*/
+div.content {
+    padding: 20px 50px 10px 50px;
+}
+
+div.content p {
+    text-indent: 2em;
+    line-height: 30px;
+}
+
+div.content span.first {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+/*-----------------------------------------------------*/
+div.footer {
+    background: #333;
+    height: 40px;
+    padding: 20px 50px 0px 50px;
+    /*margin: 0px 30px 0px 30px;*/
+    text-align: right;
+    color: #CCC;
+}
