@@ -1,0 +1,96 @@
+/* :root {
+    --primary-1:#405F7B;
+    --primary-2:#274763;
+    --primary-3:#14314C;
+    --primary-4:#061E33;
+    --primary-5:#01101C;
+} */
+
+:root {
+    --primary-1: #68A34F;
+    --primary-2: #47842D;
+    --primary-3: #2D6415;
+    --primary-4: #174404;
+    --primary-5: #0B2600;
+}
+
+/*--------------------------------------------*/
+html,
+body {
+    background: var(--primary-4);
+}
+
+
+
+/*--------------------------------------------*/
+.navbar {
+    background: var(--primary-3);
+}
+
+.navbar .navbar-brand {
+    color: var(--primary-5);
+}
+
+.navbar .navbar-nav .nav-item.active a {
+    color: #fff;
+}
+
+.navbar .navbar-nav .nav-item a {
+    color: var(--primary-1);
+}
+
+/* .nav-item a {
+    color: var(--primary-1) !important;
+} */
+
+
+
+/*--------------------------------------------*/
+.jumbotron {
+    background: var(--primary-5);
+    color: #fff;
+    margin-bottom: 1%;
+}
+
+
+
+/*--------------------------------------------*/
+.card {
+    background: var(--primary-2);
+    color: white;
+    border: none;
+}
+
+.card img {
+    width: 100%;
+}
+
+
+
+/*--------------------------------------------*/
+.map,
+.video {
+    border-radius: 5px;
+    margin: 1% 0%;
+}
+
+
+
+/*--------------------------------------------*/
+table.table thead {
+    color: #fff;
+}
+
+table.table tbody tr:nth-child(odd) {
+    background: var(--primary-2);
+    color: #fff;
+}
+
+table.table tbody tr:nth-child(even) {
+    background: var(--primary-1);
+    color: #fff;
+}
+
+div.col-md-4 {
+    color: #fff;
+}
