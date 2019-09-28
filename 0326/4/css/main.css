@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+/*---------------------------*/
+/* 引用思源中文                */
+/*---------------------------*/
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexming.css);
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexhei.css);
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexkai.css);
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+
+
+
+/*---------------------------*/
+/* 定義網頁                   */
+/*---------------------------*/
+html,
+body {
+    /*設定思源中文*/
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 17px;
+    background: #fff;
+    background-size: cover;
+    background-position: center;
+    color: #000;
+    margin: 0;
+}
+
+
+
+/*---------------------------*/
+/* 定義標題                   */
+/*---------------------------*/
+div.header {
+    /* width:1200px; */
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    position: fixed;
+    z-index: 10;
+}
+
+
+
+/*---------------------------*/
+/* 定義導覽列                 */
+/*---------------------------*/
+div.navbar {
+    width: 1200px;
+    height: 40px;
+    margin: 40px 50px 0px 50px;
+}
+
+div.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+div.navbar ul li {
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+}
+
+div.navbar ul li a {
+    text-decoration: none;
+    color: rgb(77, 64, 64);
+}
+
+
+
+/*---------------------------*/
+/* 定義容器                   */
+/*---------------------------*/
+div.container {
+    width: 1200px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-top: 80px;
+    z-index: 5;
+}
+
+
+
+/*---------------------------*/
+/* 定義內容                   */
+/*---------------------------*/
+div.content {
+    padding: 20px auto;
+    text-align: center;
+}
+
+div img {
+    width: 100%;
+}
+
+
+/*---------------------------*/
+/* 定義商品情報列             */
+/*---------------------------*/
+table.product {
+    width: 1200px;
+    margin: 20px auto;
+}
+
+table.product img {
+    width: 50px;
+}
+
+table.product:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+
+/*---------------------------*/
+/* 定義推薦商品列             */
+/*---------------------------*/
+table.recommended {
+    width: 1200px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+table.recommended img {
+    width: 100px;
+}
+
+table.recommended:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+
+/*---------------------------*/
+/* 定義表尾                   */
+/*---------------------------*/
+div.footer {
+    width: 1200px;
+    margin: 0 auto;
+    height: 60px;
+    line-height: 60px;
+    background: #CCC;
+    font-size: 14px;
+    text-align: center;
+}
