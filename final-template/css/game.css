@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+:root {
+    --primary-1: #213141;
+    --primary-2: #171D25;
+    --primary-3: #2C9FF3;
+    --primary-4: #25608F;
+    --primary-5: #0D0D10;
+}
+
+* {
+    font-family: 'Noto Sans TC', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    background-color: var(--primary-1);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vh;
+    height: 50vh;
+    border-radius: 50%;
+    background: white;
+    color: var(--primary-5);
+    text-align: center;
+}
+
+button.start {
+    margin-top: 10%;
+    padding: 3% 5%;
+    border-radius: 10%;
+}
+
+.board {
+    background-color: var(--primary-4);
+}
+
+.ball {
+    background-color: white;
+}
+
+.game-info {
+    display: none;
+    color: var(--primary-3);
+    font-size: 50px;
+    text-align: center;
+}

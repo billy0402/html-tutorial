@@ -1,0 +1,47 @@
+li img {
+    margin: 15px;
+    width: 50px;
+}
+
+.time {
+    color: #A8A8A8;
+}
+
+.title .author {
+    padding-left: 60px;
+}
+
+.title .author .name {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.title .author .time {
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.title .content {
+    padding-top: 10px;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.old-message,
+.add-message {
+    margin-left: -20px;
+}
+
+.responder .message {
+    font-size: 15px;
+}
+
+.responder .message span {
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.last-issue {
+    margin-bottom: 56px;
+}

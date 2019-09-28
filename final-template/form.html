@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+    <link rel="icon" href="images/icon.png" />
+
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/form.css">
+</head>
+
+<body id="form" data-role="page">
+
+    <header data-role="header" data-position="fixed">
+        <img src="images/image_header.jpg" alt="北商校園" />
+        <h1>新增議題</h1>
+    </header>
+
+    <article data-role="content">
+        <section class="form">
+            <form method="post" action="#">
+                <fieldset>
+                    <label for="title">標題</label>
+                    <input id="title" type="text" name="title" required />
+
+                    <label for="message">內容</label>
+                    <textarea id="message" name="message" rows="10" cols="50" required></textarea>
+
+                    <label>
+                        <input type="radio" name="permission" value="public" checked />
+                        <span>公開</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="permission" value="private" />
+                        <span>私人</span>
+                    </label>
+
+                    <div class="button-group" data-role="controlgroup" data-type="horizontal">
+                        <input class="ui-btn-right" href="/discussion.html" data-icon="check" type="submit" value="送出">
+                        <input class="ui-btn-right" data-icon="refresh" type="reset" value="重置" />
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </article>
+
+    <footer data-role="footer" data-position="fixed">
+        <nav data-role="navbar">
+            <ul>
+                <li><a href="/index.html" data-icon="home" data-transition="slideup">首頁</a></li>
+                <li><a href="/discussion.html" data-icon="user" data-transition="slideup">討論區</a></li>
+                <li><a href="/form.html" data-icon="edit" data-transition="slideup"
+                        class="ui-btn-active ui-state-persist">新增議題</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+
+</html>

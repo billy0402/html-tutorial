@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Discussion</title>
+    <link rel="icon" href="images/icon.png" />
+
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/discussion.css">
+</head>
+
+<body id="discussion" data-role="page">
+
+    <header data-role="header" data-position="fixed">
+        <img src="images/image_header.jpg" alt="北商校園" />
+        <h1>討論區</h1>
+    </header>
+
+    <article data-role="content">
+
+        <section class="button-group">
+            <a href="/form.html" class="ui-btn ui-icon-edit ui-btn-icon-right">新增議題</a>
+        </section>
+
+        <section class="issue" data-role="collapsible" data-collapsed="false">
+            <ul data-role="listview">
+                <li class="title" data-role="list-divider">
+                    <img src="images/icon.png" alt="author" />
+                    <div class="author">
+                        <p class="name">豆芽菜</p>
+                        <p class="time">昨天 13:14</p>
+                    </div>
+                    <h3 class="content">北商是否應該擴增校地？</h3>
+                </li>
+                <li>
+                    <a href="#" class="ui-nodisc-icon ui-alt-icon">查看更多留言</a>
+                </li>
+
+                <!-- responder -->
+                <li class="responder">
+                    <img src="images/author_01.jpg" alt="responder1" />
+                    <div class="old-message">
+                        <p class="message"><span>豆芽菜</span>是說前門看得到後門？</p>
+                        <p class="time">昨天 13:14</p>
+                    </div>
+                </li>
+
+                <li class="responder">
+                    <img src="images/author_02.jpg" alt="responder2" />
+                    <div class="old-message">
+                        <p class="message"><span>豆芽菜</span>隔壁都比我們大間</p>
+                        <p class="time">昨天 13:14</p>
+                    </div>
+                </li>
+
+                <li class="responder">
+                    <img src="images/author_03.jpg" alt="responder3" />
+                    <div class="old-message">
+                        <p class="message"><span>豆芽菜</span>第一次來還以為走錯地方</p>
+                        <p class="time">昨天 13:14</p>
+                    </div>
+                </li>
+                <!-- responder -->
+
+                <li class="responder">
+                    <img src="images/author_04.jpg" alt="responder4" />
+                    <div class="add-message">
+                        <input type="text" name="message" placeholder="新增留言" />
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="issue" data-role="collapsible" data-collapsed="false">
+            <ul data-role="listview">
+                <li class="title" data-role="list-divider">
+                    <img src="images/icon.png" alt="author" />
+                    <div class="author">
+                        <p class="name">豆芽菜</p>
+                        <p class="time">昨天 13:14</p>
+                    </div>
+                    <h3 class="content">北商是否應該擴增校地？</h3>
+                </li>
+                <li>
+                    <a href="#" class="ui-nodisc-icon ui-alt-icon">查看更多留言</a>
+                </li>
+
+                <!-- responder -->
+                <li class="responder">
+                    <img src="images/author_01.jpg" alt="responder1" />
+                    <div class="old-message">
+                        <p class="message"><span>豆芽菜</span>是說前門看得到後門？</p>
+                        <p class="time">昨天 13:14</p>
+                    </div>
+                </li>
+
+                <li class="responder">
+                    <img src="images/author_02.jpg" alt="responder2" />
+                    <div class="old-message">
+                        <p class="message"><span>豆芽菜</span>隔壁都比我們大間</p>
+                        <p class="time">昨天 13:14</p>
+                    </div>
+                </li>
+
+                <li class="responder">
+                    <img src="images/author_03.jpg" alt="responder3" />
+                    <div class="old-message">
+                        <p class="message"><span>豆芽菜</span>第一次來還以為走錯地方</p>
+                        <p class="time">昨天 13:14</p>
+                    </div>
+                </li>
+                <!-- responder -->
+
+                <li class="responder">
+                    <img src="images/author_04.jpg" alt="responder4" />
+                    <div class="add-message">
+                        <input type="text" name="message" placeholder="新增留言" />
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="issue last-issue" data-role="collapsible" data-collapsed="false">
+            <ul data-role="listview">
+                <li class="title" data-role="list-divider">
+                    <img src="images/icon.png" alt="author" />
+                    <div class="author">
+                        <p class="name">豆芽菜</p>
+                        <p class="time">昨天 13:14</p>
+                    </div>
+                    <h3 class="content">北商是否應該擴增校地？</h3>
+                </li>
+                <li>
+                    <a href="#" class="ui-nodisc-icon ui-alt-icon">查看更多留言</a>
+                </li>
+
+                <!-- responder -->
+                <li class="responder">
+                    <img src="images/author_01.jpg" alt="responder1" />
+                    <div class="old-message">
+                        <p class="message"><span>豆芽菜</span>是說前門看得到後門？</p>
+                        <p class="time">昨天 13:14</p>
+                    </div>
+                </li>
+
+                <li class="responder">
+                    <img src="images/author_02.jpg" alt="responder2" />
+                    <div class="old-message">
+                        <p class="message"><span>豆芽菜</span>隔壁都比我們大間</p>
+                        <p class="time">昨天 13:14</p>
+                    </div>
+                </li>
+
+                <li class="responder">
+                    <img src="images/author_03.jpg" alt="responder3" />
+                    <div class="old-message">
+                        <p class="message"><span>豆芽菜</span>第一次來還以為走錯地方</p>
+                        <p class="time">昨天 13:14</p>
+                    </div>
+                </li>
+                <!-- responder -->
+
+                <li class="responder">
+                    <img src="images/author_04.jpg" alt="responder4" />
+                    <div class="add-message">
+                        <input type="text" name="message" placeholder="新增留言" />
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+    </article>
+
+    <footer data-role="footer" data-position="fixed">
+        <nav data-role="navbar">
+            <ul>
+                <li><a href="/index.html" data-icon="home" data-transition="slideup">首頁</a></li>
+                <li><a href="/discussion.html" data-icon="user" data-transition="slideup"
+                        class="ui-btn-active ui-state-persist">討論區</a></li>
+                <li><a href="/form.html" data-icon="edit" data-transition="slideup">新增議題</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
