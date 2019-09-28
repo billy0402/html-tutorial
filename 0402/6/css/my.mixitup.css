@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+/* 設定卡片寬度 */
+.mix,
+.gap {
+    width: 170px;
+    background: #eee;
+}
+
+
+/* 設定卡片上方分類顏色 */
+.mix {
+    border: none;
+    border-top: 15px solid currentColor;
+    box-shadow: 0px 0px 5px 1px #000;
+}
+
+
+/* 設定卡片高度 */
+.mix:before {
+    padding-top: 160px;
+}
+
+
+/* 設定按鈕背景 */
+p.controls {
+    background-color: #fff;
+}
+
+
+/* 設定按鈕文字 */
+p.controls a {
+    font-size: 16px;
+    color: #666;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+/* 設定按鈕點擊後 */
+.mixitup-control-active {
+    background: transparent;
+}
+
+
+/* 自訂標題顏色 */
+.mix.darkRed {
+    color: #550000;
+}
+
+.mix.middleRed {
+    color: #aa3939;
+}
+
+.mix.lightRed {
+    color: #ffaaaa;
+}
