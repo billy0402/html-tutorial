@@ -1,0 +1,34 @@
+form {
+    margin: 3% 10%;
+}
+
+legend {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 50px;
+    text-align: center;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    background: rgb(235, 235, 235);
+    font-size: 15px;
+}
+
+input[type="text"] {
+    height: 30px;
+}
+
+.button-group {
+    text-align: center;
+}
+
+input[type="button"],
+input[type="reset"] {
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    background: rgb(235, 235, 235);
+    font-size: 15px;
+}

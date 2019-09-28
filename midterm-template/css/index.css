@@ -1,0 +1,36 @@
+section {
+    border-radius: 20px;
+    padding-bottom: 50px;
+}
+
+.align-right {
+    float: right;
+}
+
+a.align-right {
+    color: #000000;
+    text-decoration: none;
+}
+
+.video {
+    padding: 1%;
+    padding-bottom: 40px;
+    float: left;
+    width: 48%;
+    height: 315px;
+    text-align: center;
+}
+
+.map {
+    padding: 1%;
+    padding-bottom: 0;
+    float: left;
+    width: 48%;
+}
+
+.map-introduction {
+    padding: 1%;
+    padding-bottom: 75px;
+    float: left;
+    width: 48%;
+}

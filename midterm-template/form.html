@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>NTUB - 新增議題</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="images/icon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Roboto" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/form.css" />
+</head>
+
+<body>
+    <header>
+        <img src="images/image_header.jpg" alt="北商校園" />
+    </header>
+
+    <aside>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/index.html"><i class="fas fa-home"></i>首頁</a>
+                </li>
+                <li>
+                    <a href="/discussion.html"><i class="fas fa-comments"></i>討論區</a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <article>
+        <section>
+            <form>
+                <fieldset>
+                    <legend>
+                        <i class="fas fa-user-edit"></i>新增議題
+                    </legend>
+
+                    <label>標題</label>
+                    <input type="text" name="title" required />
+
+                    <label>內容</label>
+                    <textarea name="message" rows="10" cols="50" required></textarea>
+
+                    <label>
+                        <input type="radio" name="permission" value="public" checked />
+                        <span>公開</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="permission" value="private" />
+                        <span>私人</span>
+                    </label>
+
+                    <div class="button-group">
+                        <a href="/discussion.html"><input type="button" name="submit" value="送出" /></a>
+                        <input type="reset" name="reset" value="重置" />
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </article>
+
+    <footer>
+        Copyright &copy; 2018 NTUB IMD. All rights reserved.
+    </footer>
+</body>
+
+</html>
