@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+/* ------------------------------------------------------ */
+html,
+body {
+    background: #586EB1;
+    font-family: 'Noto Sans TC', sans-serif;
+    margin: 0;
+}
+
+/* ------------------------------------------------------ */
+.header {
+    z-index: 2;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    min-width: 800px;
+    background: rgba(174, 191, 241, 0.7);
+}
+
+/* ------------------------------------------------------ */
+.container {
+    z-index: 1;
+    position: relative;
+    top: 80px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+/* ------------------------------------------------------ */
+.content {
+    background: #DBE3FC;
+    padding: 10px 50px 30px 50px;
+}
+
+img.avatar {
+    margin-top: 20px;
+    border-radius: 40px;
+    box-shadow: 0px 3px 5px 0px #000;
+}
+
+h1.title {
+    display: inline;
+}
+
+.content p {
+    text-indent: 2em;
+    line-height: 30px;
+}
+
+/* ------------------------------------------------------ */
+.footer {
+    height: 60px;
+    line-height: 60px;
+    padding-right: 30px;
+    text-align: right;
+    letter-spacing: 3px;
+    background: #AEBFF1;
+    color: #FFF;
+}

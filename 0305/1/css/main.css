@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+/* ------------------------------------------------------ */
+html,
+body {
+    background: #586EB1;
+    font-family: 'Noto Sans TC', sans-serif;
+    margin: 0;
+}
+
+/* ------------------------------------------------------ */
+.container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+/* ------------------------------------------------------ */
+.header {
+    height: 80px;
+    background: #AEBFF1;
+}
+
+/* ------------------------------------------------------ */
+.content {
+    background: #DBE3FC;
+    padding: 10px 50px 30px 50px;
+}
+
+/* ------------------------------------------------------ */
+.content p {
+    text-indent: 2em;
+    line-height: 30px;
+}
+
+/* ------------------------------------------------------ */
+.footer {
+    height: 60px;
+    line-height: 60px;
+    padding-right: 30px;
+    text-align: right;
+    letter-spacing: 3px;
+    background: #AEBFF1;
+    color: #FFF;
+}

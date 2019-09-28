@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+
+/* ------------------------------------------------------ */
+html,
+body {
+    background: #586EB1;
+    /*font-family: 'Noto Sans TC', sans-serif;*/
+    font-family: 'cwTeXFangSong', serif;
+    margin: 0;
+}
+
+/* ------------------------------------------------------ */
+.header {
+    z-index: 2;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    min-width: 800px;
+    background: rgba(174, 191, 241, 0.7);
+}
+
+/* ------------------------------------------------------ */
+.container {
+    z-index: 1;
+    position: relative;
+    top: 80px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+/* ------------------------------------------------------ */
+.content {
+    background: #DBE3FC;
+    padding: 10px 50px 30px 50px;
+}
+
+img.avatar {
+    margin-top: 20px;
+    border-radius: 40px;
+    box-shadow: 0px 3px 5px 0px #000;
+}
+
+img.left {
+    float: left;
+    border: 10px solid #FFF;
+    box-shadow: 0px 0px 5px 0px #000;
+    margin-right: 15px;
+}
+
+img.right {
+    float: right;
+    box-shadow: 0px 0px 5px 0px #000;
+    margin-left: 15px;
+}
+
+h1.title {
+    position: relative;
+    top: -15px;
+    left: 20px;
+    display: inline;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.content p {
+    text-indent: 2em;
+    line-height: 30px;
+    font-weight: 590;
+}
+
+.clear {
+    clear: both;
+}
+
+/* ------------------------------------------------------ */
+.footer {
+    height: 60px;
+    line-height: 60px;
+    padding-right: 30px;
+    text-align: right;
+    letter-spacing: 3px;
+    background: #AEBFF1;
+    color: #FFF;
+}
