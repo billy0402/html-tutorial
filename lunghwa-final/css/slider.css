@@ -1,0 +1,26 @@
+.left-slider, .right-slider {
+    display: inline;
+    width: 20%;
+    text-align: center;
+    margin-top: 125px;
+}
+
+ul, li {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    padding: 10px;
+}
+
+li a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-size: 25px;
+}
+
+li a:hover {
+    color: blue;
+}

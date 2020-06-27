@@ -1,0 +1,16 @@
+.container {
+    flex-direction: column;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+}
+
+.banner a img {
+    width: 100%;
+}
+
+.arrow-left, .arrow-right {
+    width: 50px;
+}
